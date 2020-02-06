@@ -295,6 +295,8 @@ small {
     .about-para {
         width: 90%;
         padding-top: 12px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
     .port-image {
         width: 60%;
@@ -306,16 +308,26 @@ small {
     }
     .table {
         padding: 0 20px;
+        width: 100%;
     }
     td, th {
-        padding: 16px 60px 16px 8px;
+        padding: 16px 30px 16px 8px;
         align-items: center;
         justify-content: space-between;
     }
     iframe {
+        
+    }
+    .map-wrapper {
         width: 100%;
-        align-items: center;
         padding: 0 12px;
+        margin: 0 auto;
+    }
+    .altcampus-heading {
+        padding-top: 16px;
+    }
+    .icon-wrapper {
+        padding-left: 24px;
     }
     .icon {
         margin: 12px;
