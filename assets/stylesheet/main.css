@@ -289,6 +289,18 @@ small {
 
 /* Media Queries */
 @media all and (max-width:768px) {
+    .padding-top {
+        padding-top: 32px;
+    }
+    .padding-bottom {
+        padding-bottom: 32px;
+    }
+    .nav-bar a{
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 24px;
+    }
     .col-1-3 {
         width: 90%;
     }
@@ -312,15 +324,14 @@ small {
     }
     td, th {
         padding: 16px 30px 16px 8px;
-        align-items: center;
-        justify-content: space-between;
-    }
-    iframe {
-        
     }
     .map-wrapper {
         width: 100%;
         padding: 0 12px;
+        margin: 0 auto;
+    }
+    .altcampus {
+        align-items: center;
         margin: 0 auto;
     }
     .altcampus-heading {
