@@ -341,7 +341,8 @@ small {
         font-size: 24px;
     }
     .col-1-3 {
-        width: 90%;
+        width: 100%;
+        padding: 20px 50px;
     }
     .about-para {
         width: 90%;
@@ -353,7 +354,7 @@ small {
         width: 60%;
     }
     
-    .flex {
+    .flex-1 {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
@@ -378,10 +379,7 @@ small {
     .altcampus-heading {
         padding-top: 16px;
     }
-    .icon-wrapper {
-        padding-left: 24px;
-    }
     .icon {
-        margin: 12px;
+        margin: 6px;
     }
 }
