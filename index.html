@@ -12,23 +12,19 @@
 </head>
 <body>
     <header class="header">
-        <div class="container flex">
-            <div class="logo-container">
-                <a href="#">
+        <nav class="container flex">
+                <a class="logo" href="#">
                     <img src="assets/media/logo.png" alt="">
                 </a>
-            </div>
-            <nav class="nav-bar">
-                <a href="#">Portfolio</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">More
-                    <button type="menu" class="angle-down">
-                        <i class="fas fa-angle-down"></i>
-                    </button>
-                </a>
-            </nav>
-        </div>
+            <label for="toggle" class="ham">&#9776;</label>
+            <input id="toggle" class="toggle" type="checkbox" />
+            <ul class="flex nav-bar">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="main">
         <section class="hero"> 
